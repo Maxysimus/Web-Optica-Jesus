@@ -1,2 +1,2 @@
 # Web-Optica-Jesus
-La página web de la Óptica Jesús
+La página web de la Óptica Jesús.
