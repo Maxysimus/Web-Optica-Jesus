@@ -1,6 +1,6 @@
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, #1a5276 0%, #2980b9 50%, #3498db 100%);
+    background: linear-gradient(135deg, #255575 0%, #3c77b9 50%, #67aad6 100%);
     min-height: 400px;
     display: flex;
     align-items: center;
@@ -19,6 +19,52 @@
     bottom: 0;
     background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="2"/></svg>') center/3em repeat;
     animation: move 10s linear infinite;
+}
+
+.hero-logo {
+    width: 420px;
+    height: auto;
+    margin-bottom: 1.5rem;
+    margin-top: 2rem;
+    animation: fadeIn 1.5s ease-out;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.hero-content > *:not(.hero-logo) {
+    text-align: center;
+}
+
+.hero-content .hero-logo {
+    margin-right: auto;
+}
+
+@media (max-width: 768px) {
+    .hero-content {
+        flex-direction: column;
+        gap: 0;
+        padding: 1.25rem;
+    }
+
+    .hero-content .hero-logo {
+        margin-right: 0;
+    }
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    padding: 2rem;
 }
 
 @keyframes move {
