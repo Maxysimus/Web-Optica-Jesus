@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Montserrat (fuente principal de la web) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="optica.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="icon" href="images/opticajesusLogo.png" type="image/x-icon"> 
+    <title>Óptica Jesús - Cuidamos tu visión</title>
+</head>
+<body>
+    <!-- Hero Section -->        
+    <nav class="hero-menu animate__animated animate__slideInDown animate__delay-1s" aria-label="Menú superior">    
+        <a href="optica.html#inicio">Inicio</a>
+        <a href="optica.html#productos">Productos</a>
+        <a href="optica.html#servicios">Servicios</a>
+        <a href="optica.html#consejos">Consejos</a>
+        <a href="nosotros.html">Nosotros</a>
+    </nav>
+
+    <section class="hero animate__animated animate__fadeInDown" aria-label="Sección principal">
+        <div class="hero-content">
+            <img src="images/opticajesus.png" alt="Logo optica jesus" class="hero-logo">
+            <h1>Óptica Jesús</h1>
+        </div>
+    </section>
+
+    <header>
+        <h3 id="welcome">¡Nos presentamos!</h3>
+        <p id="description">En esta sección podrás aprender sobre nosotros.</p>
+        <p id="description">A día de hoy, después de más de 70 años, con muchos cambios, mejoras y nuevas incorporaciones ya ha surgido la cuarta generación de expertos formada por Ibon, Eider e Iker.</p>
+    </header>
+
+    <article class="services">
+        <p>Enfocada hacia sus clientes con la profesionalidad de siempre en Óptica y Audiología, con un único objetivo; seguir siendo la Óptica para la gente de Bilbao.</p>
+
+        <p>La historia de Óptica Jesús se inicia el 8 de Abril de 1950 con la inauguración del local Nº 1 en la calle Sombrerería del Casco Viejo en Bilbao, dirigido por Jesús Gómez.</p>
+
+        <p>En el verano de 1983 después de la inundación de Bilbao, Óptica Jesús tuvo que volver a nacer y reconstruirse sobre sus firmes y sólidas bases. Igual que Bilbao se propuso ser un referente en el turismo del Norte de España, Óptica Jesús puso su foco en servicios ópticos.</p>
+    </article>
+
+    <section class="equipo" aria-label="Equipo de Óptica Jesús">
+        <h2>Equipo</h2>
+
+        <div class="equipo-grid">
+            <figure class="equipo-card" id="equipo">
+                <img src="images/Ibon-Txarroalde.jpg" alt="Foto de Ibon">
+                <figcaption>
+                    <strong>Ibon Txarroalde</strong><br>
+                    Optometrista
+                </figcaption>
+            </figure>
+
+            <figure class="equipo-card">
+                <img src="images/Eider_foto-768x1024.jpg" alt="Foto de Eider">
+                <figcaption>
+                    <strong>Eider Txarroalde</strong><br>
+                    Gerente y Shop Assistant
+                </figcaption>
+            </figure>
+
+            <figure class="equipo-card">
+                <img src="images/Iker_foto-e1558305919962.jpg" alt="Foto de Iker">
+                <figcaption>
+                    <strong>Iker Txarroalde</strong><br>
+                    Audioprotesista
+                </figcaption>
+            </figure>
+
+            <figure class="equipo-card">
+                <img src="images/Joana-Vicente_foto-768x1024.jpg" alt="Foto de Joana">
+                <figcaption>
+                    <strong>Joana Vicente</strong><br>
+                    Psicopedagoga
+                </figcaption>
+            </figure>
+
+            <figure class="equipo-card">
+                <img src="images/María-José_foto-e1558305561619.jpg" alt="Foto de María José">
+                <figcaption>
+                    <strong>María José García</strong><br>
+                    Optometrista
+                </figcaption>
+            </figure>
+
+            <figure class="equipo-card">
+                <img src="images/Pedro-Jimeno_-Foto-768x1024.jpg" alt="Foto de Pedro Jimeno">
+                <figcaption>
+                    <strong>Pedro Antonio Jimeno</strong><br>
+                    Optometrista
+                </figcaption>
+            </figure>
+
+            <figure class="equipo-card">
+                <img src="images/Tito_foto-e1558304639136-768x1024.jpeg" alt="Foto de Tito">
+                <figcaption>
+                    <strong>Tito Onecha</strong><br>
+                    Shop Assistant
+                </figcaption>
+            </figure>
+
+            <figure class="equipo-card">
+                <img src="images/IMG_1035-768x1024.jpg" alt="Foto de Tito">
+                <figcaption>
+                    <strong>Aitor Saitua</strong><br>
+                    Administración
+                </figcaption>
+            </figure>
+
+            <figure id="equipo-card"></figure>
+
+        </div>
+    </section>
+
+        <div class="contacto">
+        <button type="button" onclick="contactarModal()">Contáctanos</button>
+    </div>
+
+    <section class="redes-sociales">
+        <p>Instagram: @opticajesus</p>
+        <p>Facebook: Óptica Jesús</p>
+        <p>X: @opticajesus</p>
+    </section>
+
+    <footer>
+        <p>Dirección: Sombrerería, 8, Bajo Bilbao</p>
+        <p>&copy; 2026 Óptica Jesús. Todos los derechos reservados.</p>
+        <p><a href="aviso-legal.txt" target="_blank" style="color: bisque;">Aviso Legal</a> // <a href="politica-privacidad.txt" target="_blank" style="color: bisque;">Política de Privacidad</a> // <a href="politica-cookies.txt" target="_blank" style="color: bisque;">Política de Cookies</a></p>
+    </footer>
+
+    <div id="modal" class="modal" aria-hidden="true">
+        <div class="modal-content" role="dialog" aria-labelledby="modalTitle" aria-modal="true">
+            <span class="close" onclick="cerrarModal()">&times;</span>
+            <h2 id="modalTitle">Contáctanos</h2>
+            <div class="contact-info">
+                <h3>Teléfono: <a href="tel:+34944792110">+34 944 79 21 10</a></h3>
+                <h3>Email: <a href="mailto:comunicacion@opticajesus.net">comunicacion@opticajesus.net</a></h3>
+                <h3>Dirección: Sombrerería, 8, Bajo Bilbao</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2905.6654961961513!2d-2.9230275896629117!3d43.258431908857276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4e4fcea9c1fdd3%3A0x8edf87cda541d04b!2zw5NwdGljYSBKZXPDunM!5e0!3m2!1ses!2ses!4v1556353721078!5m2!1ses!2ses" width="100%" height="450" margin="2px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <button type="button" class="close-btn" onclick="cerrarModal(); easterEgg()">Cerrar</button>
+        </div>
+    </div>
+
+    <script>
+        // Accordion functionality
+        const accordionHeaders = document.querySelectorAll('.accordion-header');
+        
+        accordionHeaders.forEach(header => {
+            header.addEventListener('click', () => {
+                const content = header.nextElementSibling;
+                const isActive = header.classList.contains('active');
+                
+                // Close all other accordions
+                document.querySelectorAll('.accordion-header').forEach(h => {
+                    h.classList.remove('active');
+                    h.nextElementSibling.style.maxHeight = null;
+                });
+                
+                // Toggle current accordion
+                if (!isActive) {
+                    header.classList.add('active');
+                    content.style.maxHeight = content.scrollHeight + 'px';
+                }
+            });
+        });
+
+        const modal = document.getElementById('modal');
+        const contactForm = document.getElementById('contactForm');
+
+        function contactarModal() {
+            modal.classList.add('show');
+            modal.setAttribute('aria-hidden', 'false');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function cerrarModal() {
+            modal.classList.remove('show');
+            modal.setAttribute('aria-hidden', 'true');
+            document.body.style.overflow = '';
+        }
+
+        modal.addEventListener('click', event => {
+            if (event.target === modal) {
+                cerrarModal();
+            }
+        });
+
+        contactForm.addEventListener('submit', event => {
+            event.preventDefault();
+            const name = document.getElementById('name').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const message = document.getElementById('message').value.trim();
+
+            if (!name || !email || !message) {
+                alert('Por favor, completa todos los campos para enviar el formulario.');
+                return;
+            }
+
+            alert(`Gracias por contactarnos, ${name}. Pronto nos pondremos en contacto contigo.`);
+            contactForm.reset();
+            cerrarModal();
+        });
+
+        document.addEventListener('keydown', event => {
+            if (event.key === 'Escape' && modal.classList.contains('show')) {
+                cerrarModal();
+            }
+        });
+
+        function easterEgg() {
+            secretNumberNaoto = 13;
+            secretNumberAigis = 29;
+            randomNumber = Math.floor(Math.random() * 100) + 1;
+            if (randomNumber === secretNumberNaoto) {
+                var equipoSection = document.getElementById("equipo-card");
+                var newCard = document.createElement("figure");
+                newCard.classList.add("equipo-card");
+                newCard.innerHTML = `
+                    <img src="images/naoto.gif" alt="Foto de Naoto">
+                    <figcaption>
+                        <strong>Naoto</strong><br>
+                        Detective del Midnight Channel y miembro del Equipo de Investigación
+                    </figcaption>
+                `;
+                equipoSection.appendChild(newCard);
+            }
+            if (randomNumber === secretNumberAigis) {
+                var equipoSection = document.getElementById("equipo-card");
+                var newCard = document.createElement("figure");
+                newCard.classList.add("equipo-card");
+                newCard.innerHTML = `
+                    <img src="images/aigis.gif" alt="Foto de Aigis">
+                    <figcaption>
+                        <strong>Aigis</strong><br>
+                        Protectora de la humanidad y miembro de S.E.E.S.
+                    </figcaption>
+                `;
+                equipoSection.appendChild(newCard);
+            }
+        }
+    </script>
+
+</body>
+</html>
+
+

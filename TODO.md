@@ -1,8 +1,4 @@
-# TODO - Cambiar fuente a Montserrat
-
-- [ ] Añadir import/carga de la fuente Montserrat en `optica.html` (Google Fonts).
-- [ ] Verificar que `optica.css` use `font-family: 'Montserrat', sans-serif;` para `body`.
-- [ ] Revisar que el cambio aplica a todo el texto (herencia) y no hay overrides.
-- [x] Probar (lógicamente) que el HTML carga correctamente la fuente desde Google Fonts.
-
-
+- [x] Verificar que `Web Optica/nosotros.html` muestre todas las tarjetas del equipo.
+- [ ] Añadir estilos en `Web Optica/optica.css` para `.equipo-grid` y `.equipo-card`.
+- [x] Ajustar responsive para que el grid quede bien en móvil.
+- [x] Correr revisión rápida abriendo `nosotros.html` en el navegador.
