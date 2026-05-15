@@ -124,6 +124,33 @@ h2 {
     transform: translateY(-1px);
 }
 
+@media (max-width: 768px) {
+    .hero-menu {
+        top: 12px;
+        width: calc(100% - 2rem);
+        height: fit-content;
+        overflow-x: auto;
+        justify-content: center;
+        left: auto;
+    }
+    .hero-menu a {
+        font-size: 0.9rem;
+        padding: 0.35rem 0.75rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-menu {
+        top: 10px;
+        width: calc(100% - 1.5rem);
+        left: auto;
+    }
+    .hero-menu a {
+        font-size: 0.85rem;
+        padding: 0.3rem 0.75rem;
+    }
+}
+
 /* Testimonios */
 .testimonials {
     max-width: 1200px;
